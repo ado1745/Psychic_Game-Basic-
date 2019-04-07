@@ -26,8 +26,8 @@ function reset() {
     guessedLetters = [];
     updateGuessesLeft();
     updateGuessesSoFar();
-    randomChar();
-    console.log(randomChar());
+    computerPick = randomChar();
+    console.log(computerPick);
 };
 
 
